@@ -551,7 +551,7 @@ $ ./hello
 hello, world
    ```
 
-Bravo, vous avez écrit, compilé et exécuté votre premier programme 🥰.
+Bravo, vous avez écrit, compilé et exécuté votre premier programme 🥰
 
 ## Livraison du rendu
 
