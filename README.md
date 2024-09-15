@@ -188,7 +188,7 @@ Intégrez ce fichier `document.xml` à votre dossier de rendu.
 
 Notepad est un éditeur de texte très moyenâgeux, mais diantrement  utile (pensez aussi à installer l'éditeur [Notepad++](https://notepad-plus-plus.org/), qui offre des possibilités supplémentaires).
 
-<img src="assets/notepad.png" alt="notepad" style="zoom:50%;" />
+<img src="assets/notepad.png" alt="notepad" style="zoom:10%;" />
 
 
 
