@@ -20,7 +20,7 @@
   - [WSL](#wsl)
     - [Windows Terminal](#windows-terminal)
     - [Familiarisation avec Linux](#familiarisation-avec-linux)
-    - [Outils de développement, compilation et execution](#outils-de-développement-compilation-et-execution)
+    - [Outils de développement, compilation et exécution](#outils-de-développement-compilation-et-exécution)
   - [Visual Studio Code](#visual-studio-code)
   - [Git](#git)
     - [Configuration de Git](#configuration-de-git)
@@ -188,7 +188,7 @@ Intégrez ce fichier `document.xml` à votre dossier de rendu.
 
 Notepad est un éditeur de texte très moyenâgeux, mais diantrement  utile (pensez aussi à installer l'éditeur [Notepad++](https://notepad-plus-plus.org/), qui offre des possibilités supplémentaires).
 
-<img src="assets/notepad.png" alt="notepad" style="zoom:10%;" />
+<img src="assets/notepad.png" alt="notepad" style="zoom:70%;" />
 
 
 
@@ -201,7 +201,7 @@ Notepad est un éditeur de texte très moyenâgeux, mais diantrement  utile (pen
    * Author: Brian Kernighan <brian.kernighan@hello-world.com>
    **/
    
-   #include "stdio.h"
+   #include <stdio.h>
    
    int main(void) 
    {
