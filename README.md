@@ -1,9 +1,9 @@
-# Labo-00 : Prise en main de l'ordinateur <!-- omit in toc -->
+# Labo-00 : prise en main de l'ordinateur <!-- omit in toc -->
 
 | Type       | Description                                                      |
 | ---------- | ---------------------------------------------------------------- |
 | Durée      | 2x45 minutes + Travail à la maison                               |
-| Rendu      | dossier `rendu` contenant plusieurs fichiers, publié sur GitHub. |
+| Rendu      | Dossier `rendu` contenant plusieurs fichiers, publié sur GitHub. |
 | Format     | Travail individuel                                               |
 | Évaluation | Sur la conformité du rapport et de l'archive                     |
 
@@ -32,7 +32,7 @@
     - [Précisions sur la clé SSH](#précisions-sur-la-clé-ssh)
   - [Acceptation de l'invitation](#acceptation-de-linvitation)
 - [Clone du laboratoire](#clone-du-laboratoire)
-- [Compilation et execution d'un programme](#compilation-et-execution-dun-programme)
+- [Compilation et exécution d'un programme](#compilation-et-exécution-dun-programme)
 - [Livraison du rendu](#livraison-du-rendu)
 - [Dernière étape](#dernière-étape)
 - [Résumé](#résumé)
@@ -108,7 +108,7 @@ Durant ce travail pratique, vous l'avez maintenant compris, plusieurs documents 
 2. Placez-y le fichier `two-pies.txt` créé précédemment.
 3. Vérifiez que ce dossier contient maintenant un seul et unique fichier.
 
-*Spoiler alert* : à la fin de ce travail, votre dossier aura la structure suivante :
+*Spoiler alert* : à la fin de ce travail, votre dossier à rendre aura la structure suivante :
 
 ```text
 ./rendu
@@ -125,7 +125,7 @@ Notez la notion de hiérarchie : le dossier `rendu` contient plusieurs fichiers.
 
 ## Customisation de l'explorateur de fichiers
 
-Par défaut, Windows est optimisé pour pour le profane. Il est donc essentiel, pour un ingénieur, de modifier certaines options afin d'améliorer son confort de travail. Vous devez, par exemple, ajuster ces options de l'Explorateur de fichiers.
+Par défaut, Windows est optimisé pour le profane. Il est donc essentiel, pour un ingénieur, de modifier certaines options afin d'améliorer son confort de travail. Vous devez, par exemple, ajuster ces options de l'Explorateur de fichiers.
 
 ![options](assets/options.png)
 
@@ -135,7 +135,7 @@ Rendez-vous dans les options de dossier, puis dans l'onglet `Affichage` et déco
 
 Cela vous permet de voir les extensions des fichiers, ce qui est très utile pour les identifier. Par exemple, un fichier `hello.c` est un fichier source C, tandis qu'un fichier `hello.exe` est un exécutable. 
 
-Vous devez aussi coher l'option suivante :
+Vous devez aussi cocher l'option suivante :
 
 - [ ] Afficher les fichiers, dossiers et lecteurs cachés.
 
@@ -159,7 +159,7 @@ Microsoft Office est la suite bureautique la plus utilisée dans l'industrie. Qu
 
 7. Entrez ensuite votre nom, prénom et la date du jour.
 
-8. Insérez une section avec `<CTRL>+<ALT>+<1>` intitulée `Microsoft Word`.
+8. Insérez une section avec `<CTRL>+<ALT>+<1>` intitulé `Microsoft Word`.
 
 9. Faites une capture d'écran et insérez-la dans votre rapport (il s'agit d'une mise en abyme) :
 
@@ -231,22 +231,22 @@ Au passage, bravo, vous venez d'écrire votre premier programme C à l'école d'
 
 **WSL** permet de simplifier le développement de nombreux logiciels prévu pour être compatible POSIX (comme les téléphones Android). Installer WSL vous permettra de suivre quelques exemples cités dans le cours plus simplement que sous Windows.
 
-Pour installer WSL, utilisez la [documentation](https://learn.microsoft.com/en-us/windows/wsl/install) de Microsoft, en choisissand la distribution par défaut, **Ubuntu**.
+Pour installer WSL, utilisez la [documentation](https://learn.microsoft.com/en-us/windows/wsl/install) de Microsoft, en choisissant la distribution par défaut, **Ubuntu**.
 
-Une fois WSL et Ubuntu installés effectuer les opérations suivantes :
+Une fois WSL et Ubuntu installés, effectuer les opérations suivantes :
 
 1. Exécutez le programme `Ubuntu` maintenant installé.
 2. Après quelques instants, il vous est demandé de saisir un nom d'utilisateur puis un mot de passe, choisissez un mot de passe assez simple, il n'est pas très important. Attention, le mot de passe ne s'affiche pas lorsque vous le saisissez, c'est normal et c'est pour des raisons de sécurité. **Important** : Ne sautez pas cette étape. Créez un utilisateur par exemple vos initiales.
 
 #### Windows Terminal
 
-Le programme [cmd.exe](https://fr.wikipedia.org/wiki/Cmd) est plus vieux que vous et depuis Microsoft à développé un nouveau terminal nommé **Windows Terminal**. Pour l'installer, utilisez le **Windows Store** (touche Windows puis `store`). Si vous êtes sous Windows 11, Windows Terminal est déjà installé.
+Le programme [cmd.exe](https://fr.wikipedia.org/wiki/Cmd) est plus vieux que vous et depuis Microsoft a développé un nouveau terminal nommé **Windows Terminal**. Pour l'installer, utilisez le **Windows Store** (touche Windows puis `store`). Si vous êtes sous Windows 11, Windows Terminal est déjà installé.
 
 Pour exécuter le  **Windows Terminal**, vous pouvez simplement faire `<W-R> wt <ENTER>`.
 
 ![ ](assets/wt.png)
 
-Configurez le  **Windows Terminal**  : allez dans les paramètres avec `<CTRL>+,` et choisissez `Ubuntu`  comme le profile par défaut. Choisissez aussi comme terminal par défaut `Windows Terminal`. 
+Configurez le  **Windows Terminal**  : allez dans les paramètres avec `<CTRL>+,` et choisissez `Ubuntu`  comme le profil par défaut. Choisissez aussi comme terminal par défaut `Windows Terminal`. 
 Dans  `Interaction` activez `Automatically copy selection to clipboard`.
 
 #### Familiarisation avec Linux
@@ -369,7 +369,7 @@ Utilisez la combinaison `<CTRL>+<SHIFT>+<X>` pour afficher les extensions et ins
 
 ### Git
 
-Git est un logiciel de gestion de version très utilisé par les développeurs logiciels. Il est utilisé dans ce cours comme outil principal pour accéder aux énoncés de laboratoire et soumettre vos modifications. Avantageusement, Git est déjà installé avec Ubuntu 22.04, mais nous devons le configurer avant de pouvoir l'utiliser.
+Git est un logiciel de gestion de version très utilisé par les développeurs de logiciels. Il est utilisé dans ce cours comme outil principal pour accéder aux énoncés de laboratoire et soumettre vos modifications. Avantageusement, Git est déjà installé avec Ubuntu 22.04, mais nous devons le configurer avant de pouvoir l'utiliser.
 
 #### Configuration de Git
 
@@ -458,7 +458,7 @@ Maintenant, si vous voulez *impressionner votre professeur et gagner des points 
 Avant toute chose, et si ce n'est pas déjà fait, il vous faut créer un compte GitHub.
 
 1. Allez sur [GitHub](https://github.com/).
-2. Sélectionnez `Sign Up` et créer un compte GitHub.
+2. Sélectionnez `Sign Up` et créez un compte GitHub.
 3. Choisissez un `username` : pour simplifier le travail du professeur, utilisez `nom-prenom` en **minuscule** et avec un tiret. C'est la convention d'usage de nommer en minuscule les mots séparés par des tirets.
 4. Utilisez votre e-mail de la HEIG-VD afin de bénéficier des avantages du programme [GitHub_Education](https://github.com/education).
 
@@ -468,7 +468,7 @@ Avant toute chose, et si ce n'est pas déjà fait, il vous faut créer un compte
 
 Vous rappelez-vous, nous avions créé une clé `SSH` pour sécuriser nos transactions avec Git. Il est temps d'ajouter cette clé à votre compte GitHub.
 
-1. Ayez sous la main votre clé public de la forme:
+1. Ayez sous la main votre clé publique de la forme:
 
    ```text
    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3RiOdvxC/+qW0IDpb0UGPFgFOMqKLzzJ
@@ -492,7 +492,7 @@ Votre clé SSH vous permet aussi d'accéder à d'autres ordinateurs à distance 
 
 ### Acceptation de l'invitation
 
-Votre professeur vous a envoyé un lien vers un travail GitHub Classroom, cliquez sur ce lien, sélectionner votre nom et acceptez l'invitation en cliquant sur *Accept this assignment*. Un message indique :
+Votre professeur vous a envoyé un lien vers un travail GitHub Classroom, cliquez sur ce lien, sélectionnez votre nom et acceptez l'invitation en cliquant sur *Accept this assignment*. Un message indique :
 
 >You accepted the assignment, labo-00 . We're configuring your repository now. This may take a few minutes to complete. Refresh this page to see updates.
 
@@ -501,7 +501,7 @@ Patientez quelques secondes puis rafraichissez la page avec la touche F5. Vous a
 >You’re ready to go!
 >You accepted the assignment, labo-00.
 >Your assignment repository has been created:
->https://github.com/info1-mt-a/labo-00-votre-nom
+>https://github.com/info1-mt-a/labo-00-nom-prenom
 
 Cliquez sur le lien puis cliquez sur le bouton vert `Code`. Choisissez `SSH` et copiez l'adresse du référentiel. Elle devrait ressembler à quelque chose comme :
 
@@ -511,9 +511,9 @@ git@github.com:info1-mt-a/labo-00-nom-prenom.git
 
 ## Clone du laboratoire
 
-Pour récupérer une copie de votre travail, vous devez faire un *clone* de votre *référentiel*. Maintenant que vous avez copier l'adresse de votre référentiel, effectuez les opérations suivantes :
+Pour récupérer une copie de votre travail, vous devez faire un *clone* de votre *référentiel*. Maintenant que vous avez copié l'adresse de votre référentiel, effectuez les opérations suivantes :
 
-1. Lancer un terminal Ubuntu
+1. Lancer un terminal Ubuntu.
 2. Cloner le référentiel de ce travail pratique avec la commande suivante :
 
    ```sh
@@ -525,13 +525,13 @@ Pour récupérer une copie de votre travail, vous devez faire un *clone* de votr
 
 C'est principalement ces commandes que vous répéterez tout au long du semestre : `git clone`, `cd`, `code .`
 
-## Compilation et execution d'un programme
+## Compilation et exécution d'un programme
 
-Depuis le terminal Ubuntu, dans le répertoire `labo-00` que vous avez récupéré, utilisez la commande `explorer.exe .` (n'oubliez pas le point) pour ouvrir l'explorateur de fichiers Windows dans le dossier courant. Copiez le fichier `hello.c` dans ce dossier. Ceci est le *code source* de votre programme.
+Depuis le terminal Ubuntu, dans le répertoire `labo-00` que vous avez récupéré, utilisez la commande `explorer.exe .` (n'oubliez pas le point) pour ouvrir l'explorateur de fichiers Windows dans le dossier courant. Copiez le fichier `hello.c` dans ce dossier. Ce fichier contient le *code source* de votre programme.
 
    ```sh
 $ cd labo-00
-$ explorer.exe .  # mettre le fichier hello.c dans le répertoire labo-00
+$ explorer.exe .  # mettre manuellement le fichier hello.c dans le répertoire labo-00
 $ ls
 hello.c
    ```
@@ -557,7 +557,7 @@ Bravo, vous avez écrit, compilé et exécuté votre premier programme 🥰
 
 Pour livrer votre travail, il vous est demandé de publier vos fichiers sur GitHub.
 
-Depuis le terminal Ubuntu, dans le répertoire `labo-00` que vous avez récupéré, créez un dossier `rendu` avec la commande `mkdir rendu`. Puis, déplacez-vous dans ce dossier avec `cd rendu`. Avec la commande `explorer.exe .` (n'oubliez pas le point), vous ouvrez l'explorateur de fichier Windows dans le dossier courant. Copiez les fichiers demandés dans ce dossier, sauf le fichier `README.md` qui sera crée dans l'étape suivante.
+Depuis le terminal Ubuntu, dans le répertoire `labo-00` que vous avez récupéré, créez un dossier `rendu` avec la commande `mkdir rendu`. Puis, déplacez-vous dans ce dossier avec `cd rendu`. Avec la commande `explorer.exe .` (n'oubliez pas le point), vous ouvrez l'explorateur de fichier Windows dans le dossier courant. Copiez les fichiers demandés dans ce dossier, sauf le fichier `README.md` qui sera créé dans l'étape suivante.
 
 ```text
 ./rendu
@@ -589,9 +589,9 @@ Je me suis familiarisé un peu avec Markdown, ci dessous quelques exemples de ce
 > Vous vous inspirerez du fichier source de la donnée du laboratoire (fichier README.md à la racine du référentiel) pour donner quelques exemples de ce que l'on peut faire en Markdown.
 ```
 
-Notez que vous pouvez visualiser ce que vous écrivez en direct dans Visual Studio Code. Pour cela, vous pouvez utiliser la commande `Markdown: Open Preview to the Side` depuis le menu des commandes, ou depuis le racourci `<CTRL>+<K> <V>`.
+Notez que vous pouvez visualiser ce que vous écrivez en direct dans Visual Studio Code. Pour cela, vous pouvez utiliser la commande `Markdown: Open Preview to the Side` depuis le menu des commandes, ou depuis le raccourci `<CTRL>+<K> <V>`.
 
-Une fois terminé il ne reste que trois commandes à utiliser :
+Une fois terminé, il ne reste que trois commandes à utiliser :
 
 1. `git add rendu/README.md`
 2. `git commit -m "Ajout fichier Markdown"`
